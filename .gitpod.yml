@@ -1,0 +1,6 @@
+tasks:
+  - init: script/setup
+    before: source venv/bin/activate
+
+image:
+  file: ../Dockerfile.dev
